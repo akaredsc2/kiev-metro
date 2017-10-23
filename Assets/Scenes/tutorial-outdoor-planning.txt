@@ -1,0 +1,25 @@
+Outdoor tutorial planning
+1. Scene
+	1.1 Plain
+	1.2 Buildings[cubes]
+		1.2.1 Different materials for interactable and non-interactable buildings
+	1.3 Details[cylinder]
+		1.3.1 Different materials for interactable and non-interactable details
+	1.4 Character[sphere]
+		1.4.1 Has interaction radius. Any interactable object within radius can be interacted
+	1.5 Encounter[different color from character]
+2. Controls
+	2.1 Movement
+		2.1.1 Sticks
+		2.1.2 No jumps, no sprints
+	2.2 Looting
+		while (interactable object has more interactable parts) [building can have many floors, outdoor objects have only one interactable part] 
+			do loot [fill progress bar]
+			if (had problems during looting) [blocked floor]
+				resolve problem(*for later discussion*)
+	2.3 Character placement at shelter[assigning characters to different parts of shelter]
+3. Dialogs
+	3.1 System[narrator, environment[blocked door, can't proceed]], no branching
+	3.2 Between characters, with branching
+	3.3 Encounter dialog, with branching
+4. UI
